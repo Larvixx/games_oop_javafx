@@ -12,7 +12,6 @@ public class BishopBlackTest {
         BishopBlack bishop = new BishopBlack(Cell.A1);
         bishop.position();
 
-
     }
 
     @Test
