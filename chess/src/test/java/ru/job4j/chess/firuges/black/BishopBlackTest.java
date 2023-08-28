@@ -17,7 +17,7 @@ public class BishopBlackTest {
     }
 
     @Test
-    public void copy() {1
+    public void copy() {
         Figure expected = new BishopBlack(Cell.A1);
         BishopBlack bishop = new BishopBlack(Cell.A1);
         bishop.copy(Cell.A1);
