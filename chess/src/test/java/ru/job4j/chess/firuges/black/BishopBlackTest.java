@@ -20,8 +20,8 @@ public class BishopBlackTest {
     public void copy() {
         Figure expected = new BishopBlack(Cell.A1);
         BishopBlack bishop = new BishopBlack(Cell.A1);
-        bishop.copy(Cell.A1);
-        assertThat(expected.position()).isEqualTo(bishop);
+        expected.copy(Cell.B2);
+        assertThat(bishop.position()).isEqualTo(expected.position());
 
     }
 }
