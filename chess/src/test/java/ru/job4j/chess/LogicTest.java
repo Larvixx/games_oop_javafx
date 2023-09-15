@@ -42,4 +42,4 @@ public class LogicTest {
         });
         assertThat(exception.getMessage()).isEqualTo("OccupiedCellException");
     }
-}1
+}

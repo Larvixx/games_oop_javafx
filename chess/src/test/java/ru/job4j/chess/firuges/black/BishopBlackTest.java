@@ -43,4 +43,4 @@ public class BishopBlackTest {
             Assert.assertNotEquals("", thrown.getMessage());
         }
     }
-}1
+}
