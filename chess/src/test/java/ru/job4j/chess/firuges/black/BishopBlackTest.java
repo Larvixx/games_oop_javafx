@@ -37,7 +37,6 @@ public class BishopBlackTest {
         assertThat(bishop.way(Cell.G5)).isEqualTo(expected);
     }
 
-
     @Test
     public void whenIsNotDiagonal() throws ImpossibleMoveException {
         BishopBlack bishop = new BishopBlack(Cell.A1);
